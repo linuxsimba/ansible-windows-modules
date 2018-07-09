@@ -42,5 +42,5 @@ author: Stanley Karunditu(stanley@linuxsimba.com)
 
 EXAMPLES = '''
 # Change Hostname
-$ ansible -i hosts -m win_host -a "hostname=MyNewComp"  windows
+$ ansible -i hosts -m win_host -a "name=MyNewComp"
 '''
